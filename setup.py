@@ -3,13 +3,13 @@ from setuptools import setup
 # To build a new application, run: python3 setup.py py2app
 
 APP = ['underTheRug.py']
-DATA_FILES = [('', ['icon.png']),
-              ('', ['hidden.png']),
-              ('', ['notHidden.png']),
+DATA_FILES = [('', ['rug.png']),
+              ('', ['Hide.sh']),
+              ('', ['Show.sh']),
               ]
 OPTIONS = {
     'argv_emulation': True,
-    'iconfile': 'rug.png',
+    'iconfile': 'icon.png',
     'plist': {
         'CFBundleShortVersionString': '0.1.0',
         'LSUIElement': True,
